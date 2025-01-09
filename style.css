@@ -1,0 +1,26 @@
+.container1{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.about{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.block{
+    display: flex;
+    gap: 300px;
+    align-items: center;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: aqua;
+    color: white;
+}
+.btn:hover{
+    background-color: blue;
+}
