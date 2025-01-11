@@ -5,43 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+   
 </head>
 <body>
-    <header>
-        <div class="container1">
-            <div class="block">
-                <div>
-                    <h1>NURHAN</h1>
+    <main>
+        <section>
+            
+            <div id="root" class="w-[1596px] h-[2100px] m-auto ">
+                <div class="justify-items-center		">
+                    <h1 class="font-[600] text-[35px] ">Our Product</h1>
+                    <ol class="flex gap-[40px] mt-[64px]   text-[#000000]         ">
+                        <li class="font-[500px] text-[18px] font-Roboto opacity-[60%]  ">ICE CREAM</li> 
+                        <li  class="font-[500px] text-[18px] font-Roboto opacity-[60%]  ">CAYENNE CHOCOLATE</li>
+                        <li class="font-[500px] text-[18px] font-Roboto opacity-[60%]  " >CAKE BATTER</li>
+                        <li  class="font-[500px] text-[18px] font-Roboto opacity-[60%]  ">CANDY CANE</li>
+                        <li  class="font-[500px] text-[18px] font-Roboto opacity-[60%]  ">PLATTERS</li>
+                        <li  class="font-[500px] text-[18px] font-Roboto opacity-[60%]  ">DESSERT</li>
+                    </ol>
                 </div>
-                <div>
-                    <ul class="about">
-                        <li>О нас</li>
-                        <li>О нас</li>
-                        <li>О нас</li>
-                        <li>О нас</li>
-                    </ul>
-                </div>
-                <div>
-                    <button class="btn">Login</button>
-                </div>
-            </div>
 
-        </div>
-    </header>
-    <footer style="background-color: #2c3e50; color: white; padding: 20px; text-align: center;">
-        <div>
-          <p>&copy; 2025 MyWebsite. Все права защищены.</p>
-          <p>
-            <a href="/privacy-policy" style="color: #1abc9c; text-decoration: none;">Политика конфиденциальности</a> |
-            <a href="/terms-of-service" style="color: #1abc9c; text-decoration: none;">Условия использования</a>
-          </p>
-        </div>
-        <div style="margin-top: 10px;">
-          <a href="https://www.facebook.com" style="margin: 0 10px; color: #1abc9c; text-decoration: none;">Facebook</a>
-          <a href="https://www.twitter.com" style="margin: 0 10px; color: #1abc9c; text-decoration: none;">Twitter</a>
-          <a href="https://www.instagram.com" style="margin: 0 10px; color: #1abc9c; text-decoration: none;">Instagram</a>
-        </div>
-    
-    </footer>
+            </div>
+        </section>
+        <section>
+            <div class="w-[1600px] h-[720px] m-auto  ">
+                <div class="bg-[#F8EDF0] w-[1600px] h-[670px] flex justify-center gap-[100px]">
+                    <div class="mt-[80px]">
+                        <img src="./img/image 28.png" alt="" class="rounded-[30px]">
+                    </div>
+                    <div class="mt-[100px] ">
+                        <h1 class="font-[500] text-[40px] ">Simple Way To Order Your Food</h1>
+                        <p class="mt-[20px] font-[400] text-[18px] w-[607px] font-Roboto opacity-[70%] leading-[21.09px]
+                         ">Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful I've been left eating my thoughts.</p>
+                        <div class=" mt-[30px] ">
+                            <div class="flex gap-[10px]  ">
+                                
+                             <div class="w-[30px] h-[30px] rounded-[3px] bg-white justify-items-center	">
+                            <img src="./img/Group 91.png" alt="" class="pt-[5px]">
+                            </div>
+                            <h2>Select Your Food</h2>
+                                
+                            </div>
+                            <div class="flex mt-[10px] gap-[10px] ">
+                                
+                             <div class="w-[30px] h-[30px] rounded-[3px] bg-white justify-items-center	">
+                            <img src="./img/Group 91.png" alt="" class="pt-[5px]">
+                            </div>
+                            <h2>Select Your Food</h2>
+                                
+                            </div>
+                            <div class="flex mt-[10px] gap-[10px] ">
+                                
+                             <div class="w-[30px] h-[30px] rounded-[3px] bg-white justify-items-center	">
+                            <img src="./img/Group 91.png" alt="" class="pt-[5px]">
+                            </div>
+                            <h2>Select Your Food</h2>
+                                
+                            </div>
+                         
+                        </div>
+                        <div class="flex mt-[47px]">
+                            <div>
+                                <img src="./img/en_badge_web_generic-removebg-preview 1.png" alt="">
+                            </div>
+                            <div>
+                                <img src="./img/en_badge_web_generic-removebg-preview 1.png" alt="">
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="w-[1600px] h-[545px] m-auto">
+                <div class="justify-items-center">
+                    <h1 class="w-[500px] text-center font-[500] text-[40px] ">Have Question in Mind? Let us help you</h1>
+                </div>
+                <div>
+                    <input type="text" placeholder="Enter your question" class="w-[637px] h-[74px]">
+                    <button></button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+
 </body>
 </html>
